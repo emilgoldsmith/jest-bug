@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "jest": "^22.0.1"
+  },
+  "scripts": {
+    "correct-behaviour": "jest --testPathPattern='asdsaf'",
+    "buggy-behaviour": "npm run correct-behaviour -- --findRelatedTests fixture.js"
+  }
+}
